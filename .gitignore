@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+*.db
+*.db-shm
+*.db-wal
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+
+# Node
+node_modules/
+.next/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+
+# Data (generated — reproducible via script)
+data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
